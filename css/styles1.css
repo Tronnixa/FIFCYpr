@@ -1,0 +1,26 @@
+body{
+  background-color: #fcfcfc;
+}
+
+#topLogo{
+  height: 7%;
+  float: left;
+  margin-right: 30;
+}
+
+.vid{
+    background-color: #c7c9cc;
+    height: 150;
+    width: 30%;
+    display: inline-grid;
+    margin: 20;
+}
+
+#topH1{
+  font-size: 14;
+}
+
+#watchSermons{
+  text-align: center;
+  font-size: 14;
+}
