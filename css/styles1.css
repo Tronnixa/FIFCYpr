@@ -1,5 +1,6 @@
 body{
   background-color: #ffffff;
+  margin: 0;
 
 }
 
@@ -49,17 +50,16 @@ body{
   display: inline-grid;
   margin: 10;
   margin-right: 50;
-
 }
 
 #topLogo{
   height: 90%;
   float: left;
-  margin-left: 75;
-  margin-right: 40;
+  padding-left: 75;
+  padding-right: 40;
   display: inline;
-  margin-top: 5;
-  margin-bottom: 5;
+  padding-top: 5;
+  padding-bottom: 5;
 }
 
 .videos{
@@ -67,6 +67,42 @@ body{
   margin-right: 40;
   margin-top: 40;
   align-content: center;
+}
+
+.imgs{
+  margin-left: 75;
+  margin-right: 40;
+  margin-top: 40;
+  align-content: center;
+}
+
+#_sort{
+  background-color: #ffffff;
+  font-size: 18;
+  color: #6d6f70;
+  position: sticky;
+  top: 139;
+}
+
+#_sort2{
+  background-color: #ffffff;
+  font-size: 18;
+  color: #6d6f70;
+  position: sticky;
+  top: 89;
+}
+
+#sortby{
+  height: 5%;
+  float: left;
+  margin: 0;
+  margin-right: 2;
+  padding-left: 86%;
+}
+
+#grid_pic{
+  display: inline;
+  width: 15;
 }
 
 .vid{
@@ -77,6 +113,21 @@ body{
     margin-right: 20;
     margin-bottom: 20;
 
+}
+
+.pic{
+    background-color: #d9d9d9;
+    height: 200;
+    width: 20%;
+    display: inline-grid;
+    margin-right: 20;
+    margin-bottom: 20;
+
+}
+
+.vid .vidz{
+  height: 90%;
+  width: 100%;
 }
 
 
